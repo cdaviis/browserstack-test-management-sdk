@@ -1,0 +1,43 @@
+{
+  "name": "browserstack-test-management-sdk",
+  "version": "1.0.0",
+  "description": "Client wrapper for the BrowserStack Test Management API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "prepublishOnly": "npm run lint && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browserstack",
+    "test-management",
+    "api",
+    "playwright",
+    "e2e"
+  ],
+  "author": "cdavis-whoosh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdavis-whoosh/browserstack-test-management-sdk.git"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.50.0",
+    "typescript": "^5.9.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
