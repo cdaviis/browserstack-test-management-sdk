@@ -18,11 +18,11 @@
     "playwright",
     "e2e"
   ],
-  "author": "cdavis-whoosh",
+  "author": "cdaviis",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cdavis-whoosh/browserstack-test-management-sdk.git"
+    "url": "https://github.com/cdaviis/browserstack-test-management-sdk.git"
   },
   "dependencies": {
     "axios": "^1.6.0"
